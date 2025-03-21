@@ -1,10 +1,12 @@
 <script setup>
-import Header from './components/header.vue'
+import Cabecalho from './components/header.vue'
+import Formulario from './components/formulario.vue';
 </script>
 
 <template>
   <div class="container">
-    <Header />
+    <Cabecalho />
+    <Formulario />
   </div>
 </template>
 
